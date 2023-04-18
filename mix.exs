@@ -49,7 +49,7 @@ defmodule Crawly.Mixfile do
       {:httpoison, "~> 2.0"},
       {:elixir_uuid, "~> 1.2"},
       {:poison, "~> 3.1"},
-      {:gollum, "~> 0.4.0", hex: :new_gollum},
+      {:gollum, "~> 0.4.0", git: "https://github.com/abhinavs/gollum.git"},
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.5.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
